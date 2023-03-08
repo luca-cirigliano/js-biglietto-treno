@@ -43,10 +43,11 @@ if (isNaN(userAge) || userAge <= 0) {
   }
 
 // Calcolo il costo totale del viaggio
-const amount = km * 0.21
-console.log(`total amount = ${amount}`)
+const totalAmount = km * 0.21
+console.log(`total amount = ${totalAmount}`)
 // Calcolo lo sconto per minorenni e over65
 
 // Formatto il prezzo scontato per avere due cifre decimali
 
 // Mostro all'utente il prezzo finale in pagina
+document.getElementById("total_amount").innerHTML =`${totalAmount}`;
