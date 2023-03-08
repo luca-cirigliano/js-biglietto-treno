@@ -19,15 +19,29 @@ Questo richiederà un minimo di ricerca.
 - let
 - console.log
 - if else
-
+-number
 */
 
-// Chiedo all'utente quanti km deve percorrere e controllo che sia un numero e che sia maggiore di 0
+// Chiedo all'utente quanti km deve percorrere e controllo che sia un numero 
 
 const km = Number(prompt('quanti km devi percorrere?'));
 console.log(`km = ${km}`)
 
-// Chiedo all'utente l'età e controllo che sia un numero e che sia maggiore o uguale a 0
+//e che sia maggiore di 0
+if (isNaN(km) || km <= 0) {
+    alert("ERRORE: Il valore deve essere un numero maggiore di 0.");
+  }
+
+// Chiedo all'utente l'età e controllo che sia un numero 
+const userAge = Number(prompt('quanti anni hai?'));
+console.log(`age = ${userAge}`)
+
+
+//e che sia maggiore o uguale a 0
+if (isNaN(userAge) || userAge <= 0) {
+    alert("ERRORE: Il valore deve essere un numero maggiore di 0.");
+  }
+
 
 // Calcolo il costo totale del viaggio
 
