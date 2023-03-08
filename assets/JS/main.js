@@ -1,4 +1,6 @@
-/* context: 
+/* 
+
+context: 
 
 Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
 Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
@@ -21,6 +23,9 @@ Questo richiederà un minimo di ricerca.
 */
 
 // Chiedo all'utente quanti km deve percorrere e controllo che sia un numero e che sia maggiore di 0
+
+const km = Number(prompt('quanti km devi percorrere?'));
+console.log(`km = ${km}`)
 
 // Chiedo all'utente l'età e controllo che sia un numero e che sia maggiore o uguale a 0
 
