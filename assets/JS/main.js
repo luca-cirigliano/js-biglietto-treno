@@ -42,9 +42,9 @@ if (isNaN(userAge) || userAge <= 0) {
     alert("ERRORE: Il valore deve essere un numero maggiore di 0.");
   }
 
-
 // Calcolo il costo totale del viaggio
-
+const amount = km * 0.21
+console.log(`total amount = ${amount}`)
 // Calcolo lo sconto per minorenni e over65
 
 // Formatto il prezzo scontato per avere due cifre decimali
